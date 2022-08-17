@@ -1,0 +1,39 @@
+.flex-container {
+    background: repeating-linear-gradient(#0058B3, #0058B3 48.8%, #ffffff00 48.9%, #ffffff00 100%);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text-container {
+    position: relative;
+    text-align: center;
+    color: #001B87;
+    font-size: 1.1rem;
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+
+.text-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flex-item1 {
+    margin-left: 5%;
+}
+
+.flex-item3 {
+    margin-right: 5%;
+}
+
+.flex-img {
+    width: 60%;
+}
+
+@media screen and (max-width: 1024px) {
+    .flex-container {
+        display: none;
+    }
+}

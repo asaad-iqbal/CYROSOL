@@ -1,0 +1,57 @@
+.row {
+    padding: 6% 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center
+}
+
+.services-container {
+    padding: 8% 0% 0 0%;
+    display: block;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.service-start {
+    color: #001b8756;
+    font-size: 100px;
+    font-size: 5.9vw;
+    font-family: 'Segoe UI Bold';
+}
+
+.service-heading {
+    color: #001B87;
+    font-size: 100px;
+    font-size: 5.9vw;
+    font-family: 'Segoe UI Bold';
+}
+
+@media screen and (max-width: 1024px) {
+    .row {
+        padding: 0;
+        display: block;
+        width: 100%;
+    }
+    .container {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .service-heading {
+        font-size: 7vw;
+    }
+    .service-start {
+        font-size: 7vw;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .service-heading {
+        font-size: 47px;
+        font-size: 7vw;
+    }
+    .service-start {
+        font-size: 47px;
+        font-size: 7vw;
+    }
+}

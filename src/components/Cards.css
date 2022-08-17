@@ -1,0 +1,99 @@
+.card {
+    background-color: #93D9EE;
+    width: 18%;
+    height: 22vw;
+    border-radius: 16%;
+    align-items: center;
+    display: block;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #001B87;
+}
+
+.card:hover .heading {
+    color: #93D9EE;
+}
+
+.card:hover .text {
+    color: #93D9EE;
+}
+
+.design {
+    display: flex;
+    height: 35%;
+    padding: 10% 0%;
+    justify-content: center;
+}
+
+.designimg {
+    height: 100%;
+}
+
+.content {
+    height: 70%;
+}
+
+.heading {
+    display: flex;
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #001B87;
+    font-size: 24px;
+    font-size: 1.7vw;
+    font-family: 'Segoe UI Bold';
+}
+
+.text {
+    display: flex;
+    padding: 5% 10% 10% 10%;
+    justify-content: center;
+    height: 70%;
+    color: #001B87;
+    text-align: center;
+    font-family: 'Segoe UI Bold';
+    align-items: center;
+    font-size: 17px;
+    font-size: 1vw;
+    line-height: 1.2;
+}
+
+@media screen and (max-width: 1024px) {
+    .card {
+        background-color: #93D9EE;
+        width: 80%;
+        height: 100vw;
+        margin: 10%;
+    }
+    .heading {
+        font-size: 45px;
+        font-size: 10vw;
+    }
+    .text {
+        padding-top: 10%;
+        font-size: 25px;
+        font-size: 4.5vw;
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .card {
+        background-color: #93D9EE;
+        width: 80%;
+        height: 100vw;
+        margin: 10%;
+    }
+    .heading {
+        font-size: 30px;
+        font-size: 9vw;
+    }
+    .text {
+        padding-top: 10%;
+        font-size: 16px;
+        font-size: 4.5vw;
+    }
+}

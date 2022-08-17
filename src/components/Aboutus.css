@@ -1,0 +1,88 @@
+.headings-container {
+    padding: 8% 0% 0 0%;
+    display: block;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.heading-start {
+    color: #001b8756;
+    font-size: 100px;
+    font-size: 5.9vw;
+    font-family: 'Segoe UI Bold';
+}
+
+.heading-heading {
+    color: #001B87;
+    font-size: 100px;
+    font-size: 5.9vw;
+    font-family: 'Segoe UI Bold';
+}
+
+.aboutcontainer {
+    display: flex;
+    padding: 5% 10%;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.abouttext {
+    width: 70%;
+    text-align: center;
+    color: #001B87;
+    font-size: 32px;
+    font-size: 2vw;
+    line-height: 3vw;
+    font-family: 'Segoe UI Bold';
+}
+
+.aboutimage {
+    width: 30%;
+}
+
+.aboutusimage {
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .aboutcontainer {
+        display: flex;
+        flex-flow: column;
+        padding: 0;
+    }
+    .abouttext {
+        order: 2;
+        padding: 3vh 0 0 0;
+        width: 90%;
+        font-size: 3.3vw;
+        line-height: 4vh;
+    }
+    .heading-heading {
+        font-size: 7vw;
+    }
+    .heading-start {
+        font-size: 7vw;
+    }
+    .aboutimage {
+        order: 1;
+        margin-top: 7%;
+        /* margin-right: 1; */
+        width: 100%;
+        text-align: center;
+        /* float: right; */
+    }
+    .aboutusimage {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .heading-heading {
+        font-size: 47px;
+        font-size: 7vw;
+    }
+    .heading-start {
+        font-size: 47px;
+        font-size: 7vw;
+    }
+}
